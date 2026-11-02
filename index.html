@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Septia Rahmadani</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <p class="brand">Septia's Profile</p>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang Saya</a>
+      <a href="#pendidikan">Pendidikan</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#pencarian">Pencarian</a>
+      <a href="#kontak">Kontak</a>
+      <a href="https://www.linkedin.com/in/septia-rahmadani-275787348?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="content">
+
+      <article id="beranda" class="hero">
+        <p class="label">HALO, SELAMAT DATANG!</p>
+        <h1>Hai, saya <span>Septia Rahmadani</span></h1>
+        <h2>Fresh Graduate </h2>
+        <p>Selamat datang di website portofolio pribadi saya. Di sini kamu bisa mengenal profil, pendidikan, keahlian, dan pengalaman pelatihan saya.</p>
+        <a class="btn" href="#tentang">Kenali Saya</a>
+      </article>
+
+      <article id="tentang">
+        <h2>Tentang Saya</h2>
+        <p>Fresh Graduate SMA Negeri 1 Ciampel yang memiliki kemampuan dasar administrasi perkantoran dan pengoperasian komputer. Menguasai Microsoft Office (Word, Excel, dan PowerPoint) serta memiliki kemampuan komunikasi yang baik. Disiplin, bertanggung jawab, dan mampu bekerja secara individu maupun tim.</p>
+        <div class="kartu">
+          <h3>Profil Profesional</h3>
+          <p>LinkedIn: kunjungi profil profesional saya.</p>
+          <a class="btn" href="https://www.linkedin.com/in/septia-rahmadani-275787348?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener">Kunjungi LinkedIn</a>
+        </div>
+      </article>
+
+      <article id="pendidikan">
+        <h2>Pendidikan</h2>
+        <ul>
+          <li><strong>SD:</strong> SD Negeri 1 Mulyasejati (2013 – 2019)</li>
+          <li><strong>SMP:</strong> SMP Negeri 2 Ciampel (2019 – 2022)</li>
+          <li><strong>SMA:</strong> SMA Negeri 1 Ciampel, Jurusan IPA (2022 – 2025)</li>
+        </ul>
+        <h3>Pelatihan &amp; Pengalaman</h3>
+        <p><strong>Kursus Komputer, Yayasan LPK Kuta Singaperbangsa (2024 – 2025)</strong></p>
+        <ul>
+          <li>Mengoperasikan Microsoft Word untuk pembuatan dokumen.</li>
+          <li>Menggunakan Microsoft Excel untuk pengolahan data dan perhitungan sederhana.</li>
+          <li>Membuat presentasi menggunakan Microsoft PowerPoint.</li>
+          <li>Memahami administrasi perkantoran dasar.</li>
+        </ul>
+      </article>
+
+      <article id="keahlian">
+        <h2>Keahlian</h2>
+        <h3>Hard Skill</h3>
+        <p class="chips">
+          <span>Microsoft Word</span><span>Microsoft Excel</span><span>Microsoft PowerPoint</span>
+          <span>Administrasi Perkantoran</span><span>Pengarsipan Dokumen</span><span>Data Entry</span>
+          <span>Email Management</span><span>Internet &amp; Browsing</span>
+        </p>
+        <h3>Soft Skill</h3>
+        <p class="chips">
+          <span>Komunikasi</span><span>Kerja Sama Tim</span><span>Leadership</span><span>Disiplin</span>
+          <span>Tanggung Jawab</span><span>Manajemen Waktu</span><span>Cepat Belajar</span><span>Problem Solving</span>
+        </p>
+        <h3>Sertifikat</h3>
+        <p>Sertifikat Pelatihan Komputer, Yayasan LPK Kuta Singaperbangsa (2025).</p>
+      </article>
+
+      <article id="pencarian">
+        <h2>Cari Informasi</h2>
+        <p>Cari informasi tentang profil atau keahlian saya.</p>
+        <form method="GET" action="search.php">
+          <label for="q">Kata kunci</label>
+          <input type="text" id="q" name="q" placeholder="Contoh: Excel atau Kontak">
+          <button type="submit">Cari</button>
+        </form>
+      </article>
+
+      <article id="kontak">
+        <h2>Hubungi Saya</h2>
+        <p>Silakan isi formulir jika ingin mengirim pesan.</p>
+        <form method="POST" action="kontak.php">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Masukkan email kamu">
+          <label for="kontak-hp">Kontak</label>
+          <input type="text" id="kontak-hp" name="kontak" placeholder="Masukkan nomor HP kamu">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan kamu"></textarea>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </article>
+
+    </div>
+
+    <aside>
+      <img src="images/foto.jpg" alt="Foto profil Septia Rahmadani">
+      <h2>Septia Rahmadani</h2>
+      <p>Ciampel, Karawang, Jawa Barat</p>
+      <p>septiarahmadani169@gmail.com</p>
+      <p>Bahasa: Indonesia (Aktif)</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Septia Rahmadani</p>
+  </footer>
+</body>
+</html>
